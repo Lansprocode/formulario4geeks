@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulario</title>
+
+    <link rel="icon" href="img/icon.png" type="img/png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles2.css">
+  </head>
+  <body>
+
+    <nav class="
+    navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+              <buttom class="navbar-toggle" type="buttom" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </buttom>
+              <a href="index.html" class="navbar-brand"><strong id="mate">ALTOCILINDRAJE.COM</strong></a>
+          </div>
+
+          <div class="navbar-collapse collapse navbar-right">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html"><i aria-hidden="true"></i><strong id="pinto">Home</strong></a></li>
+                <li><a href="contacto.html"><i class="" aria-hidden="true"></i><strong id="pinto">Contacto</strong></a></li>
+            </ul>
+        </div>
+    </nav>
+      <br>
+          
+          <section class="seccion">
+          <div class="principal" id="cajaform">
+          <form action="galeria.html" name="formulario" method="post" id="formulario" onSubmit="return validarFormulario();">
+             <div>
+              <h3>Registro</h3>
+              <br>
+                <label for="nombre" class="">Nombre: </label>
+                <br>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" maxlength="70"><span class="obligatorio">*</span>
+              </div>
+
+              <div>
+                <label for="apellido">Apellido: </label>
+                <br>
+                <input type="text" name="apellido" id="apellido" maxlength="70" placeholder="Ingresa tu apellido"><span class="obligatorio">*</span>
+              </div>
+
+              <div>
+                <label for="direccion">Direccion: </label>
+                <br>
+                <input type="text" name="direccion" id="direccion" maxlength="250" placeholder="Ingrese su direccion"><span class="obligatorio">*</span>
+              </div>
+
+              <div>
+                <label for="email">Email: </label>
+                <br>
+                <input type="email" name="email" id="email" maxlength="70" placeholder="Ingrese su Email"><span class="obligatorio">*</span>
+              </div>
+
+              <div>
+                <label for="url">Sitio Web: </label>
+                <br>
+                <input type="url" name="url" id="url" maxlength="100" placeholder="Ingresa tu sitio web">
+              </div>
+
+              <div>
+                <label for="telefono">Telefono: </label>
+                <br>
+                <input type="text" name="telefono" id="telefono" maxlength="11" placeholder="Ingresa tu telefono"><span class="obligatorio">*</span>
+              </div>
+              <div>
+                <br>
+                <label for="mensaje">Mensaje: </label>
+                <br>
+                <textarea onkeypress="calcular()" onkeyup="calcular" name="mensaje" id="mensaje" cols="28" rows="10" maxlength="1000" placeholder="Ingresa un Mensaje"></textarea><span class="obligatorio">*</span>
+                <p>Le queda <span id="contador-char">1000</span> de 1000 caracteres. </p>
+              </div>
+              <div>
+                <button type="button" name="enviar" id="enviar">Enviar</button>
+                <br>
+                <input type="reset" id="limpiar" name="limpiar" value="Limpiar">
+              </div>
+              <br>
+              <p>Nota: Los campos que tengan el simbolo <span class="obligatorio">*</span> seran obligatorios.</p>
+            </form>
+            </div>
+            </section>
+
+           <hr>
+
+           <div class="container" id="pie">
+             <div class="row text-center">
+               <footer>Realizado por WORKFLOW COMPANY.</footer>
+             </div>
+           </div>
+         
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/script2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

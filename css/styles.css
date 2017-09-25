@@ -1,0 +1,91 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+h4{
+	color: orange;
+}
+
+
+
+#botoncito{
+	background:;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	padding: 5px 15px;
+	border: none;
+}
+
+body {
+	text-align: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #DDD9D9;
+	color: #555;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 100%;
+	
+}
+
+header {
+	background: url("../img/banner.jpg") no-repeat center rgba(0,0,0,.5);
+	background-size: cover;
+	min-height: 500px;
+	padding-top: 100px;
+	text-align: center;
+
+}
+
+label {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #6495ed;;
+}
+
+input {
+	width: 100%;
+	color: #838383;
+	letter-spacing: 1px;
+	border: none;
+	padding: 10px;
+	outline: none;
+	border-radius: 3px;
+	background-color: #f5f5f5;
+}
+
+.contenedor{
+	width: 300px;
+	text-align: center;
+	border-radius: 20px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #f5f5f5;
+	
+}
+
+hr{
+	opacity: 0;
+}
+
+#pie{
+	color: #838383;
+	letter-spacing: 1px;
+	border: none;
+	padding: 10px;
+	outline: none;
+	border-radius: 30px;
+	background-color: #f5f5f5;
+}
+
+.btnenter{
+	background:#e6e6fa;
+	border-radius: 5px;
+	color: #1e90ff;
+	cursor: pointer;
+	padding: 5px 15px;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+}

@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #d3d3d3;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+}
+
+/* header y menu */ 
+nav {
+	opacity: 0.8;
+}
+
+header {
+	background: url(../img/fondo2.jpg) no-repeat center rgba(0,0,0,.5);
+	background-color: #fff8dc;
+	background-size: cover;
+	padding-top: 400px;
+	width: 100%;
+	min-height: 100px;
+	text-align: center;
+}
+
+#mate{
+	border: 0px;
+	color: #00bfff;
+	border-radius: 30%;
+}
+
+#pinto{
+	color: #00bfff;
+}
+
+
+/* Maquetacion */
+
+#seccion{
+	width: 350px;
+	height: 100%s;
+	margin-bottom: 20px;
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 20px;
+	background-color: #f5f5f5;
+	opacity: 0.9;
+}
+
+/* Formulario */
+
+form .obligatorio {
+	color: red;
+}
+
+form{
+	margin: 10px;
+}
+
+form h3 {
+	color: #6495ed;
+	font-size: 50px;
+	font-family: tahoma, sans-serif;
+	font-style: italic;
+}
+
+#maptit {
+	color: #6495ed;
+	font-size: 50px;
+	font-family: tahoma, sans-serif;
+	font-style: italic;
+}
+
+form label {
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-spacing: 2px;
+	color: #6495ed;;	
+}
+
+form input {
+	color: #838383;
+	letter-spacing: 1px;
+	border: none;
+	padding: 10px;
+	outline: none;
+	border-radius: 3px;
+	background-color: #f5f5f5;
+}
+
+form label:hover{
+	color: orange;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+form input[type="text"], input[type="email"], input[type="url"] {
+	background-color: #dcdcdc;
+	color: gray;
+	font-size: 14px;
+	width: 50%;
+	height: 30px;
+	box-shadow: none;
+}
+
+form textarea {
+	border: none;
+	color: gray;
+	font-size: 16px;
+	border-radius: 10px;
+	resize: none;
+	width: 100%;
+	font-size: 15px;
+	background: #dcdcdc;
+}
+
+form button, input[type="reset"], input[type="submit"]{
+	background: #0171bb;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	padding: 5px 15px;
+	margin: 3px;
+}
+
+form button, input[type="reset"]:hover, input[type="submit"]:hover{
+	background: orange;
+	color: #000;
+	cursor: pointer;
+	padding: 5px 13px;
+	font-size: 15px;
+}
+
+form textarea:focus {
+	outline: none;
+	color: gray;
+	font-size: 15px;
+
+
+}
+
+/* footer */
+
+hr{
+	opacity: 0;
+}
+
+#pie{
+	background-color: #6495ed;
+	border-radius: 30px;
+	color: white;
+	
+	margin: 10px;
+	
+}
+
+/* MAP */
+
+.map {
+
+}
+

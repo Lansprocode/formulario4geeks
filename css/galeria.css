@@ -1,0 +1,66 @@
+body {
+	
+	background-position: center;
+}
+
+header {
+	background: url("../img/banner4.jpg") no-repeat center rgba(0,0,0,.5);
+	background-size: cover;
+	min-height: 400px;
+	padding-top: 100px;
+	text-align: center;
+}
+
+#pricipal{
+	margin: 0 auto;
+}
+
+.contenedorfoto {
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin: 10px;
+	padding: 5px;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: 70px;
+}
+
+hgroup{
+	text-align: center;
+	color: #008fff;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+
+hr {
+	opacity: 0;
+}
+body{
+	text-align: center;
+}
+
+nav {
+	opacity: 0.8;
+}
+
+#mate{
+	border: 0px;
+	color: #00bfff;
+	border-radius: 30%;
+}
+
+#pinto{
+	color: #00bfff;
+}
+
+h3 {
+	color: orange;
+}
+
+#pie{
+	background-color: #adff2f;
+	border-radius: 30px;
+	
+}

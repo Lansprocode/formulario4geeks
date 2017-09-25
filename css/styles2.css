@@ -1,0 +1,171 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav{
+	opacity: 0.8;
+	}
+
+#pinto{
+	color: #00bfff;
+}
+
+#mate{
+	border: 0px;
+	color: #00bfff;
+	border-radius: 30%;
+}
+
+body {
+	background: url(../img/fondo3.jpg);
+	background-position: center;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #f2f2f2;
+	color: #555;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    height: 100%;
+}
+
+/* Boton del nav */
+
+#boton{
+	background: #0171bb;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	padding: 5px 15px;
+}
+#boton:hover{
+	background: #52b9fe;
+	color: #000;
+	cursor: pointer;
+	padding: 5px 15px;
+}
+
+/* Formulario */
+
+section{
+	padding-top: 7%;
+	padding-bottom: 3%;
+	margin: 20px auto;
+	height: 100%;
+}
+
+.principal {
+	width: 400px;
+	height: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 20px;
+	background-color: #f5f5f5;
+	opacity: 0.9;
+}
+
+form .obligatorio {
+	color: red;
+}
+
+form{
+	margin: 10px;
+}
+
+form h3 {
+	color: #6495ed;
+	font-size: 50px;
+	font-family: tahoma, sans-serif;
+	font-style: italic;
+}
+
+form label {
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-spacing: 2px;
+	color: #6495ed;;	
+}
+
+form input {
+	color: #838383;
+	letter-spacing: 1px;
+	border: none;
+	padding: 10px;
+	outline: none;
+	border-radius: 3px;
+	background-color: #f5f5f5;
+}
+
+form label:hover{
+	color: orange;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+form input[type="text"], input[type="email"], input[type="url"] {
+	background-color: #adff2f;
+	color: #EF6028;
+	font-size: 14px;
+	width: 50%;
+	height: 30px;
+	box-shadow: none;
+}
+
+form textarea {
+	border: none;
+	color: #adff2f;
+	font-size: 16px;
+	border-radius: 10px;
+	resize: none;
+	width: 100%;
+	font-size: 15px;
+	background: #adff2f;
+}
+
+form button, input[type="reset"]{
+	background: #0171bb;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	padding: 5px 15px;
+}
+
+form button:hover, input[type="reset"]:hover{
+	background: #adff2f;
+	color: #000;
+	cursor: pointer;
+	padding: 5px 13px;
+	font-size: 15px;
+}
+
+form textarea:focus {
+	outline: none;
+	color: #709090;
+	font-size: 15px;
+
+
+}
+
+/* Footer */
+
+footer {
+	background-color: #adff2f;
+	border-radius: 30px;
+	font-size: 15px;
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#pie{
+	background-color: #adff2f;
+	border-radius: 30px;
+	
+}
+
+hr{
+	opacity: 0;
+}
